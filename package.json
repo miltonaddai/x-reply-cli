@@ -1,0 +1,29 @@
+{
+  "name": "x-reply-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI tool for posting replies on X (Twitter) via X API v2",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "x-reply": "./index.js"
+  },
+  "scripts": {
+    "reply": "node index.js reply",
+    "post": "node index.js post",
+    "whoami": "node index.js whoami"
+  },
+  "keywords": [
+    "twitter",
+    "x",
+    "cli",
+    "api",
+    "reply"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "twitter-api-v2": "^1.17.2"
+  }
+}
